@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+</head>
+<body>
+    <h2>Grade Form</h2>
+    <form id="gradeform">
+        <label for ="studentName">Student's Name:</label><br>
+        <input type ="text" id ="studentName"><br>
+        <label for ="programName">Student's programName :</label><br>
+        <input type ="text" id ="programName"><br>
+        <label for ="python">python(out of 100):</label><br>
+        <input type ="number" id ="python"><br>
+        <label for ="HTML">HTML(out of 100):</label><br>
+        <input type ="number" id ="HTML"><br>
+        <label for ="CSS">CSS(out of 100):</label><br>
+        <input type ="number" id ="CSS"><br>
+        <button type ="button" onclick="calculateGrade()">Submit</button>
+    </form>
+    <div class ="result" id ="result"></div>
+    <script src="Lab2.js"></script>
+</body>
+</html>
